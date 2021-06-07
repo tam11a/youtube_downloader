@@ -33,7 +33,7 @@ const download = (e) => {
         var url = document.querySelector("input.hellYa").value;
         document.querySelector("input.hellYa").value = "";
         var state = btn ? "/vd" : "/ad";
-        window.location.href = `http://localhost:4000${state}?URL=${url}`;
+        window.location.href = `https://agile-bayou-33186.herokuapp.com${state}?URL=${url}`;
     }
 }
 
