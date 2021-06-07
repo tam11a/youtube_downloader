@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>YTD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/color-pallate.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/neumorphism.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="sc neumorph-box-inner">
+        <div class="container neumorph-box">
+            <header class="neumorph-box-inner inline">
+                <button class="neumorph-box hb dark-btn" onclick="toAudio(this)">Audio</button>
+                <button class="neumorph-box hb" onclick="toVideo(this)">Video</button>
+            </header>
+            <div class="grid-area">
+                <i class="material-icons neumorph-box-cradius helloicon">album</i>
+            </div>
+            <input class="neumorph-box-inner hellYa" placeholder="Youtube URL..." autocomplete="off"/>
+        </div>
+        <div class="footer">
+            <button class="neumorph-box downloadicon dark-btn" onclick="download(this)">Download</button>
+        </div>
+    </div>
+    <script src='statics/js/main.js'></script>
+</body>
+</html>
